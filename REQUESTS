@@ -1,0 +1,31 @@
+Two bots:
+Registration RegBot  (maybe a different call name?)
+Enforcement  LeagueBot
+
+
+Registration:
+
+!help -> lists all commands available to users
+!about -> made by dbz (for bug reporting), python info/core, basic information about the bot's purpose
+
+User/owner commands
+
+!registerteam squad  -> creates and gives ownership to squad  | Bot has to check that user owns the squad
+!removeplayer squad:name -> allows team owner to remove player manually. | Check ownership beforehand
+!giveowner squad:newowner -> give squad to new player | check owner and new player are both on same squad.
+!listplayers squad -> command is avail to everyone, shows complete list of players for squad, shows vp's and status
+!vp player -> returns user's vp and current squad
+
+REF/MOD/BOT OWNER Commands
+
+!startleaguereg Leaguename -> starts a league and player registration, must be done prior to making teams
+!stopleaguereg Leaguename -> stops registration (cut-off)
+!removesquad squad -> deletes squad from league (option to delete an erroneous/invalid squad)
+!removeleague leaguename -> deletes all rosters, players, and league data
+
+
+Any more ideas for commands?
+
+
+
+
